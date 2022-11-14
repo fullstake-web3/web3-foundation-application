@@ -12,16 +12,24 @@
 
 Our product solves the problem of native staking and analysing the whole portfolio within a single interface in DeFi. Based on our research, an average DeFi enthusiast owns 2-3 wallets and 4-5 different tokens. Every PoS chain has its own staking protocol which requires different actions in order to stake. Firstly, this makes staking more than 1 token inconvenient and hardly scalable for the end user. Secondly, having many different platforms for staking makes it impossible to analyse your portfolio’s profitability.
 
-
-
-Please provide the following:
-
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-**- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-**- An indication of why your team is interested in creating this project.
+Concept of our product assumes integration of all popular PoS blockhains, including Polkadot, Kusama and all parachains. At the moment, from the user point of view, there are a lot of staking solutions (native, wallets, protocols, CEXs) and more than 100 PoS blockchains, that's exactly why we want to create unique solution for all cases. 
 
 ### Project Details
+
+We do have concept prototype: https://www.figma.com/proto/Fxsokt9nsc4tqqCVavKsLf/Mockups?page-id=24%3A2&node-id=875%3A712&viewport=335%2C-2155%2C0.47&scaling=scale-down&starting-point-node-id=875%3A712
+
+As we call ourselves staking aggregator, we need to integrate different PoS blockchains staking smart contracts. Let's make a quick dive into user point of view about staking: mass users don't really want to know about choosing validators, their uptime and reputation, but they want to track 2 things: 
+- How much I invest
+- How much I will have in X period after comission 
+And of course they want to maximize their profit with minimum risk. That's it, no more details, such as, how to bridge coins into another blockchains and then swap it to stake. 
+
+And here comes our product: 
+- convenient, useful and profitable product for users
+- helping validators gain more tokens, increasing their efficiency 
+- increasing blockchains security and decentralization
+
+We also have pitch deck: https://drive.google.com/file/d/1tkX9N1MPkBlO3Zi_7_oWb544peJ5r6yA/view?usp=sharing
+
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
@@ -40,6 +48,8 @@ Things that shouldn’t be part of the application (see also our [FAQ](../docs/f
 
 ### Ecosystem Fit
 
+I think we answered all questions of this paragraph before, except part about competitors (YieldScan, Kusama Validator Center) 
+
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
@@ -53,13 +63,21 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+Our business and product part (both ex-Yandex): 
+- Semenov Kirill (background in product management & analytics)
+- Daniel Kunis (background in product management & iOS development)
+ 
+Our dev part:
+- Artem Davletov (ex-Deutsche Bank)
+- Mark Grander
+Both are experienced blockchain developers who have successfully built from ground-up several projects together:
+1. SDK Platform for launching Crypto payments and Rewards in games
+2. Analytics of users NFT assets 
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
+- **Contact Name:** Kirill Semenov
+- **Contact Email:** stakefull@gmail.com
 - **Website:** Your website
 
 ### Legal Structure
@@ -68,6 +86,8 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 - **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
 ### Team's experience
+
+Our yandex projects?
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
@@ -85,8 +105,10 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- Semenov Kirill https://www.linkedin.com/in/kstrive/
+- Daniel Kunis https://www.linkedin.com/in/dankunis/
+- Artem Davletov https://www.linkedin.com/in/artem-davletov-3b8759205/
+- Mark Grander https://www.linkedin.com/mwlite/in/mark-grander-a1ba3a210
 
 ## Development Status :open_book:
 
