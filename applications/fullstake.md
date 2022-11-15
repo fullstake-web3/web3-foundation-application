@@ -10,51 +10,30 @@
 
 ### Overview
 
-Our product solves the problem of native staking and analysing the whole portfolio within a single interface in DeFi. Based on our research, an average DeFi enthusiast owns 2-3 wallets and 4-5 different tokens. Every PoS chain has its own staking protocol which requires different actions in order to stake. Firstly, this makes staking more than 1 token inconvenient and hardly scalable for the end user. Secondly, having many different platforms for staking makes it impossible to analyse your portfolio’s profitability.
+FullStake is a cross-chain staking aggregator that brings value to nominators, validators and blockchain itself. Concept of our product assumes integration of all popular PoS blockhains, especially Polkadot and Kusama. For nominators we provide a single-interface for staking/unstaking and reward collection for all of his possible portfolio assets. For validators we provide a tool that will help them acquire new users easier. We also believe that by making staking user-friendly and accessible we will increase amount of staked assets and adoption. 
 
-Concept of our product assumes integration of all popular PoS blockhains, including Polkadot, Kusama and all parachains. At the moment, from the user point of view, there are a lot of staking solutions (native, wallets, protocols, CEXs) and more than 100 PoS blockchains, that's exactly why we want to create unique solution for all cases. 
+From the user perspective our product solves the problem of native staking and analysing the whole portfolio within a single interface in DeFi. Based on our research, an average DeFi enthusiast owns at least 2-3 wallets and 4-5 different tokens. Every PoS chain has its own staking protocol which requires different actions in order to stake. Firstly, this makes staking more than 1 token inconvenient and hardly scalable for the end user. Secondly, having many different platforms for staking makes it impossible to analyse your portfolio’s profitability.
+
+From the validator perspective our product solves the problem of nominator activation. Right now current staking solutions don't attach the user to the validator that initially acquired the user. Hence, it lowers marketing performance and efficiency. That's exactly what we try to solve. 
 
 ### Project Details
 
-We do have concept prototype: https://www.figma.com/proto/Fxsokt9nsc4tqqCVavKsLf/Mockups?page-id=24%3A2&node-id=875%3A712&viewport=335%2C-2155%2C0.47&scaling=scale-down&starting-point-node-id=875%3A712
-
-As we call ourselves staking aggregator, we need to integrate different PoS blockchains staking smart contracts. Let's make a quick dive into user point of view about staking: mass users don't really want to know about choosing validators, their uptime and reputation, but they want to track 2 things: 
+We began our work by researching our 2 users: nominators and validators. We 15 user interviews for each segment. This is our main conclusions: 
+1. Nominators have problems with staking in new network and managing their diversified portfolio. They don't really want to know about choosing validators, their uptime and reputation, but they want to track 2 things: 
 - How much I invest
 - How much I will have in X period after comission 
 And of course they want to maximize their profit with minimum risk. That's it, no more details, such as, how to bridge coins into another blockchains and then swap it to stake. 
+2. Validators are too many clicks away from stakers to have effective marketing. That's why they need "click the link below" solution for fast and convenient staking. 
 
-And here comes our product: 
-- convenient, useful and profitable product for users
-- helping validators gain more tokens, increasing their efficiency 
-- increasing blockchains security and decentralization
+Then we made a [concept prototype](https://www.figma.com/proto/Fxsokt9nsc4tqqCVavKsLf/Mockups?page-id=24%3A2&node-id=875%3A712&viewport=335%2C-2155%2C0.47&scaling=scale-down&starting-point-node-id=875%3A712) based on these researches. We are constantly improving details and feature, though concept user flow and feature list are determined. 
 
-We also have pitch deck: https://drive.google.com/file/d/1tkX9N1MPkBlO3Zi_7_oWb544peJ5r6yA/view?usp=sharing
-
-
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
-
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
-
-Things that shouldn’t be part of the application (see also our [FAQ](../docs/faq.md)):
-- The (future) tokenomics of your project 
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+We also have a [pitch deck](https://drive.google.com/file/d/1tkX9N1MPkBlO3Zi_7_oWb544peJ5r6yA/view?usp=sharing) that also covers market, monetization, product-market fit and go-to-market strategy. 
 
 ### Ecosystem Fit
 
-I think we answered all questions of this paragraph before, except part about competitors (YieldScan, Kusama Validator Center) 
-
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
-
-- **Where and how does your project fit into the ecosystem?** We want to make cross-chain solution, although we really want to prioritize Polkadot/Kusama staking. 
+- **Where and how does your project fit into the ecosystem?** We help nominators manage their staking and validators to attract new users. Also, we believe that we will increase security and decentralization of blockchain. 
 - **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?** Basically, we have 2 TAs: 
-  - Nominators/stakers.
+  - Nominators/stakers with diversified portfolio.
   - Validators. 
 - **What need(s) does your project meet?**
   - For nominators we solve problem of staking on different wallets/sites. From this problem follows the need of cross-wallet/chain analytics. 
