@@ -52,27 +52,27 @@ I think we answered all questions of this paragraph before, except part about co
 
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+- **Where and how does your project fit into the ecosystem?** We want to make cross-chain solution, although we really want to prioritize Polkadot/Kusama staking. 
+- **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?** Basically, we have 2 TAs: 
+  - Nominators/stakers.
+  - Validators. 
+- **What need(s) does your project meet?**
+  - For nominators we solve problem of staking on different wallets/sites. From this problem follows the need of cross-wallet/chain analytics. 
+  - For validators we fix the last-step conversion by giving fast, simple and native solution - no more huge amount of instructions on how to stake through different platfrosm, just FullStake.
+- **Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?** We have some competitors (and in Polkadot/Kusama ecosystem too, such as YieldScan, but hey don't seem to actively developing), and furthermore native Polkadot/Kusama staking is quite convenient, but we clearly understand that in future common DeFi user will need staking aggregator to stake different coins with different wallets.
+  - **If so, how is your project different?** 
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-Our business and product part (both ex-Yandex): 
-- Semenov Kirill (background in product management & analytics)
-- Daniel Kunis (background in product management & iOS development)
- 
+Our business and product part: 
+- Semenov Kirill
+- Daniel Kunis
+
 Our dev part:
-- Artem Davletov (ex-Deutsche Bank)
+- Artem Davletov
 - Mark Grander
-Both are experienced blockchain developers who have successfully built from ground-up several projects together:
-1. SDK Platform for launching Crypto payments and Rewards in games
-2. Analytics of users NFT assets 
 
 ### Contact
 
@@ -82,12 +82,17 @@ Both are experienced blockchain developers who have successfully built from grou
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** N/A
+- **Registered Legal Entity:** N/A
 
 ### Team's experience
 
-Our yandex projects?
+- **Semenov Kirill** - 4+ years in product management & analytics and 3+ years in traditional entrepreneurship. Ex-Yandex.Taxi (GMV - $7.75Bn in 2021) Product manager, made products that positively affected millions of drivers and passengers. 
+- **Daniel Kunis** - 
+- **Artem Davletov** - 
+- **Mark Grander** - 
+Both are experienced blockchain developers who have successfully built from ground-up several projects together: 1) SDK Platform for launching Crypto payments and Rewards in games 2) Analytics of users NFT assets 
+
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
