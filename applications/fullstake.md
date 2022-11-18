@@ -91,13 +91,15 @@ GitHub accounts of team members:
 
 ## Development Roadmap :nut_and_bolt:
 
+We want to focus on unifying all the staking processes into simple and fast flow. In order to do that, we want to implement only staking pools in Polkadot/Kusama chains.  
+
 ### Overview
 
 - **Total Estimated Duration:** 3 months
 - **Full-Time Equivalent (FTE):**  4 FTE
 - **Total Costs:** 30,000 USD
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1 — Backend part
 
 - **Estimated duration:** 1,5 month
 - **FTE:**  3
@@ -106,17 +108,17 @@ GitHub accounts of team members:
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | Apache 2.0 |
-| **0b.** | Documentation | We will record a video tutorial on how to use our platform from the nominators perspective. |
+| **0b.** | Documentation | We will provide **inline documentation.** in our Github repisitory. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
+| 0e. | Article | We will publish an article on our Medium that explains our backend structure |
+| 1. | Wallet integration | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
 | 2. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
 | 3. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
 | 4. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
 
 
-### Milestone 2 Example — Additional features
+### Milestone 2  — Frontend part
 
 - **Estimated Duration:** 1,5 month
 - **FTE:**  3
@@ -125,7 +127,7 @@ GitHub accounts of team members:
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | Apache 2.0 |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0b.** | Documentation | We will record a video tutorial on how to use our platform from the nominators perspective. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
