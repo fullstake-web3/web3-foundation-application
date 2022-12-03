@@ -10,39 +10,52 @@
 
 ### Overview
 
-FullStake is a cross-chain staking aggregator that brings value to nominators, validators and blockchain itself. Concept of our product assumes integration of all popular PoS blockhains, especially Polkadot and Kusama. For nominators we provide a single-interface for staking/unstaking and reward collection for all of his possible portfolio assets. For validators we provide a tool that will help them acquire new users easier. We also believe that by making staking user-friendly and accessible we will increase amount of staked assets and adoption. 
+Staking flows are mostly complicated and time-consuming. Most users want a transparent and risk-free 1-click solution for staking and an easy way to analyze diversified portfolio.
 
-From the user perspective our product solves the problem of native staking and analysing the whole portfolio within a single interface in DeFi. Based on our research, an average DeFi enthusiast owns at least 2-3 wallets and 4-5 different tokens. Every PoS chain has its own staking protocol which requires different actions in order to stake. Firstly, this makes staking more than 1 token inconvenient and hardly scalable for the end user. Secondly, having many different platforms for staking makes it impossible to analyse your portfolio’s profitability.
+FullStake unifies staking in all chains into a simple and fast solution and gives cross-wallet and cross-chain analytics of your portfolio. We will achieve this by creating a smart contract that wraps native staking smart contracts and lets our users stake any coin in 1-click among several validators instead of manually choosing each validator/staking pool. For validators our fast staking tool will help them acquire new users easier using whitelabel integrations and referral links.
 
-From the validator perspective our product solves the problem of nominator activation. Right now current staking solutions don't attach the user to the validator that initially acquired the user. Hence, it lowers marketing performance and efficiency. That's exactly what we try to solve. 
+For example, if a user wants to stake 1000 DOT, he just needs to sign our smart contract that will automatically stake all of his tokens among ~15 reliable validators. Moreover, if a user initially has only 1000 DOT, but wants to stake other tokens as well, our smart contract will automatically bridge, swap and natively stake the chosen amount. It is still 1-click for the user, that’s how we save users a ton of time. 
 
 ### Project Details
+Currently we are at a stage when we already conducted user research, designed an MVP for our product and are ready for development. We are also actively fundraising (VCs, angels and accelerators). 
 
-We began our work by researching our 2 users: nominators and validators. We 15 user interviews for each segment. This is our main conclusions: 
-1. Nominators have problems with staking in new network and managing their diversified portfolio. They don't really want to know about choosing validators, their uptime and reputation, but they want to track 2 things: 
-- How much I invest
-- How much I will have in X period after comission 
-And of course they want to maximize their profit with minimum risk. That's it, no more details, such as, how to bridge coins into another blockchains and then swap it to stake. 
-2. Validators are too many clicks away from stakers to have effective marketing. That's why they need "click the link below" solution for fast and convenient staking. 
+These are our main conclusions of user researches: 
 
-Then we made a [concept prototype](https://www.figma.com/proto/Fxsokt9nsc4tqqCVavKsLf/Mockups?page-id=24%3A2&node-id=875%3A712&viewport=335%2C-2155%2C0.47&scaling=scale-down&starting-point-node-id=875%3A712) based on these researches. We are constantly improving details and feature, though concept user flow and feature list are determined. 
+**Users/stakers insights**
+1. Staking flows are usually very complicated and time-consuming and vary between networks. All users want a “1-click” solution for staking 
+2. Almost all native staking platforms provide poor analytics (transaction history, income visualization, normalization per USD, etc.). Because of that, they struggle to analyze their investments, only rough calculations
+3. It is very uncomfortable if network doesn’t have auto-claim or auto-compound of rewards - users often forget to claim rewards in order to reinvest it 
+4. Users have trust issues about signing transactions in wallets, that’s why some of them are afraid of using financial instruments like staking, liquidity pools etc.
+5. Not all networks provide an interface for a fast diversification of validators. Users can spend extra hours making a diversified staking portfolio. It is also very inconvenient to unstake from each validator separately.  
+6. CEXs stakers are really angry when they face limits for staking amount, less APR than in native staking 
 
-We also have a [pitch deck](https://drive.google.com/file/d/1tkX9N1MPkBlO3Zi_7_oWb544peJ5r6yA/view?usp=sharing) that also covers market, monetization, product-market fit and go-to-market strategy. 
+**Validators insights**
+1. Validators are always ready for delegations, so they are ready for revenue-share model if it is transparently visible that the additional stake came from our product
+2. Right now validators have to put a huge list of different methods on how to stake (e.g. https://everstake.one/). They are losing potential customers on this step. 
+3. Sometimes they have a negative economy (e.g. when the price of the coin is dumping), at such moments they are ready to pay more
+4. They are also ready to pay more, when they need extra stake to be evaluated to the active validator pool
+
+
+This is our [concept prototype](https://www.figma.com/proto/Fxsokt9nsc4tqqCVavKsLf/Mockups?page-id=24%3A2&node-id=875%3A712&viewport=335%2C-2155%2C0.47&scaling=scale-down&starting-point-node-id=875%3A712) based on these researches. We are constantly revising it, though general user flow and feature list are determined. 
+
+We have a [pitch deck](https://drive.google.com/file/d/1tkX9N1MPkBlO3Zi_7_oWb544peJ5r6yA/view?usp=sharing) that also covers market, monetization, product-market fit and go-to-market strategy. 
 
 ### Ecosystem Fit
 
-- **Where and how does your project fit into the ecosystem?** We help nominators manage their staking and validators to attract new users. Also, we believe that we will increase security and decentralization of blockchain. 
-- **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?** Basically, we have 2 TAs: 
+- **Where and how does your project fit into the ecosystem?** We help nominators stake easily and fast and validators to attract new users. Also, we believe that we will increase security and decentralization of blockchain. 
+- **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?** Basically, we have 2 target audiences: 
   - Nominators/stakers with diversified portfolio.
   - Validators. 
 - **What need(s) does your project meet?**
-  - For nominators we solve problem of staking on different wallets/sites. From this problem follows the need of cross-wallet/chain analytics. 
+  - For nominators we give fast and easy 1-click staking instrument with cross-wallet/chain analytics.
   - For validators we fix the last-step conversion by giving fast, simple and native solution - no more huge amount of instructions on how to stake through different platfrosm, just FullStake.
-- **Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?** We have some competitors (and in Polkadot/Kusama ecosystem too, such as YieldScan), and furthermore native Polkadot/Kusama staking is quite convenient, but we clearly understand that in future common DeFi user will need staking aggregator to stake different coins with different wallets.
+  - For Polkadot / Kusama we make staking more accessible that will result in increased total staking capilization and network decentralization
+- **Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?** We have some competitors (and in Polkadot/Kusama ecosystem too, such as YieldScan), and furthermore native Polkadot/Kusama staking is quite convenient, but we clearly understand that in the future 1-click staking will become a commodity and we want to hasten that day.
   - **If so, how is your project different?** 
-    1. Our first differentiation from competitors is that we do product for conservative investors, that want to avoid additional risks and value transparency. We don't have our own token and we don't hold our users money.
-    2. We aim to be cross-chain & cross-wallet and cover all PoS blockchains, because most of our users hold diversified portfolio.
-    3. We also focus on bringing value to validators, so they could have a tool for more efficient customer acquisition.
+    1. Our secret sauce is that we provide unified 1-click staking in top PoS blockchains by wrapping native staking into our own smart contract.  
+    3. We do product for conservative investors that want to avoid additional risks and value transparency. We don't have our own token and we don't hold our users money.
+    4. We aim to be cross-chain & cross-wallet and cover all PoS blockchains, because most of our users hold diversified portfolio.
+    5. We also focus on bringing value to validators, so they could have a tool for more efficient customer acquisition.
 
 ## Team :busts_in_silhouette:
 
@@ -140,18 +153,13 @@ We want to focus on unifying all the staking processes into simple and fast flow
 
 ## Future Plans
 
-Please include here
+We are fully-commited to this project, we even left our 9-5 jobs becase we believe in our unique product insights and each other. We're seeking fundraising to eventually become a sustainable business. 
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+Our go to market strategy is to partner with validators so they would use FullStake to attract new stakers. There are around 500,000 validators across all chains and all of them lack a good user activation solution (see how a top validator company explains how to stake through them https://everstake.one/near). We will distribute our product providing a “click the link to stake through us” solution for validators which will increase validators last-step conversion.
 
+However we see staking as step 1 where we build a profitable business and, most importantly, gain a user base. Our big vision is to create a mobile-first WeChat-alike SuperApp for DeFi. Just like Web2, we believe Web3 will definitely become mobile-first and currently there is no widely adopted solution that would let Polkadot dApps communicate seamlessly between each other like they do via browser extensions on desktop. From the user perspective we plan to become an entry point into DeFi and we will achieve this by providing a platform-native infrastructure and SDK for app development that would ease web-to-mobile transition.
+To sum up, we start with staking to gain trust, users and technical base and then proceed to build a mobile-first ecosystem for developers and users. 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
-
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+**How did you hear about the Grants Program?** Web3 Foundation Website
