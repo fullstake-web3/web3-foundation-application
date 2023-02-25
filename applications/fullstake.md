@@ -10,11 +10,9 @@
 
 ### Overview
 
-Staking flows are mostly complicated and time-consuming. Most users want a transparent and risk-free 1-click solution for staking and an easy way to analyze diversified portfolio.
+Staking flows are mostly complicated and time-consuming. Most users/stakers want a transparent and risk-free 1-click solution for staking and an easy way to analyze a diversified portfolio (the average DeFi investor has 3-4 coins and 2-3 wallets). It is caused by a fast-growing amount of PoS blockchains (right now it is around 100 networks).
 
-FullStake unifies staking in all chains into a simple and fast solution and gives cross-wallet and cross-chain analytics of your portfolio. We will achieve this by creating a smart contract that wraps native staking smart contracts and lets our users stake any coin in 1-click among several validators instead of manually choosing each validator/staking pool. For validators our fast staking tool will help them acquire new users easier using whitelabel integrations and referral links.
-
-For example, if a user wants to stake 1000 DOT, he just needs to sign our smart contract that will automatically stake all of his tokens among ~15 reliable validators. Moreover, if a user initially has only 1000 DOT, but wants to stake other tokens as well, our smart contract will automatically bridge, swap and natively stake the chosen amount. It is still 1-click for the user, that’s how we save users a ton of time. 
+From the validator perspective, our product solves the problem of stakers activation. All validators have to provide big text instructions on how to stake. Also, right now it is not guaranteed that the user will stake through the validator that acquired him. 
 
 ### Project Details
 Currently we are at a stage when we already conducted user research, designed an MVP for our product and are ready for development. We are also actively fundraising (VCs, angels and accelerators). 
